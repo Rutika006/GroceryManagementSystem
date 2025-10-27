@@ -1,7 +1,0 @@
-127.0.0.1 - - [27/Oct/2025:16:27:39 +0530] "GET /GrocerySystem_UsingMvc/ HTTP/1.1" 200 864 http-bio-8080-exec-1 1742
-127.0.0.1 - - [27/Oct/2025:16:27:39 +0530] "GET /GrocerySystem_UsingMvc/styles.css HTTP/1.1" 200 2434 http-bio-8080-exec-2 10
-127.0.0.1 - - [27/Oct/2025:16:27:39 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
-127.0.0.1 - - [27/Oct/2025:16:27:45 +0530] "GET /GrocerySystem_UsingMvc/view HTTP/1.1" 200 2650 http-bio-8080-exec-4 1026
-127.0.0.1 - - [27/Oct/2025:16:27:51 +0530] "GET /GrocerySystem_UsingMvc/add HTTP/1.1" 200 1127 http-bio-8080-exec-5 725
-127.0.0.1 - - [27/Oct/2025:16:27:54 +0530] "GET /GrocerySystem_UsingMvc/searchItems HTTP/1.1" 200 773 http-bio-8080-exec-6 124
-127.0.0.1 - - [27/Oct/2025:16:27:57 +0530] "GET /GrocerySystem_UsingMvc/purchase HTTP/1.1" 200 893 http-bio-8080-exec-7 137

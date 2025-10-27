@@ -6,19 +6,18 @@
 
 	<persistence-unit name="dev">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<class>com.jsp.Dto.GroceryItems</class>   <!-- ✅ ADD THIS LINE -->
-
-		<shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+		<class>com.jsp.Dto.GroceryItems</class>
 
 		<properties>
-			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/grocerySystem_db?createDatabaseIfNotExist=true" />
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="ROOT" />
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:postgresql://dpg-d3vlgi3e5dus73ag98jg-a:5432/grocerydb_a31n" />
+			<property name="javax.persistence.jdbc.user" value="grocerydb_a31n_user" />
+			<property name="javax.persistence.jdbc.password" value="kZnGm7jtecQdXRdoNoM5DqAwFHB0EJu7" />
 
-			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+			<property name="hibernate.show_sql" value="true" />
 		</properties>
 	</persistence-unit>
 </persistence>
